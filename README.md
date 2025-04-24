@@ -8,15 +8,15 @@ including several Persian‑language tools).
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Workshop 1: Web Crawling](#workshop-1-web-crawling)
-- [Workshop 2: NLP Frameworks](#workshop-2-nlp-frameworks)
-- [Directory Structure](#directory-structure)
-- [Contributing](#contributing)
-- [License](#license)
+- [Overview](https://github.com/language-ml/nlp-workshop?tab=readme-ov-filehttps://github.com/language-ml/nlp-workshop?tab=readme-ov-file#overview)
+- [Prerequisites](https://github.com/language-ml/nlp-workshop?tab=readme-ov-file#prerequisites)
+- [Installation](https://github.com/language-ml/nlp-workshop?tab=readme-ov-file#installation)
+- [Usage](https://github.com/language-ml/nlp-workshop?tab=readme-ov-file#usage)
+- [Workshop 1: Web Crawling](https://github.com/language-ml/nlp-workshop?tab=readme-ov-file#workshop-1-web-crawling)
+- [Workshop 2: NLP Frameworks](https://github.com/language-ml/nlp-workshop?tab=readme-ov-file#workshop-2-nlp-frameworks)
+- [Directory Structure](https://github.com/language-ml/nlp-workshop?tab=readme-ov-file#directory-structure)
+- [Contributing](https://github.com/language-ml/nlp-workshop?tab=readme-ov-file#contributing)
+- [License](https://github.com/language-ml/nlp-workshop?tab=readme-ov-file#license)
 
 ---
 
