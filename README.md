@@ -8,7 +8,7 @@ including several Persian‑language tools).
 
 ## 📋 Table of Contents
 
-- [Overview](https://github.com/language-ml/nlp-workshop?tab=readme-ov-file#overview)
+- [Overview](#overview)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
