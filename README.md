@@ -5,22 +5,21 @@ Each workshop is provided as a Jupyter notebook:
 
 1. **Web Crawling** – collecting textual data from the Web.  
 2. **NLP Frameworks** – getting to know popular libraries for English and Persian.  
-3. **PyTorch Fundamentals** – the essentials of deep-learning with PyTorch for NLP.
+3. **PyTorch** – the essentials of deep-learning with PyTorch for NLP.
 
 ---
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)  
-- [Prerequisites](#prerequisites)  
-- [Installation](#installation)  
-- [Usage](#usage)  
-- [Workshop 1 – Web Crawling](#workshop-1-web-crawling)  
-- [Workshop 2 – NLP Frameworks](#workshop-2-nlp-frameworks)  
-- [Workshop 3 – PyTorch Fundamentals](#workshop-3-pytorch-fundamentals)  
-- [Directory Structure](#directory-structure)  
-- [Contributing](#contributing)  
-- [License](#license)
+- [Overview](#user-content--overview)  
+- [Prerequisites](#user-content--prerequisites)  
+- [Installation](#user-content--installation)  
+- [Usage](#user-content--usage)  
+- [Workshop 1 – Web Crawling](#user-content--workshop-1-web-crawling)  
+- [Workshop 2 – NLP Frameworks](#user-content--workshop-2-nlp-frameworks)  
+- [Workshop 3 – PyTorch Fundamentals](#user-content--workshop-3-pytorch)  
+- [Directory Structure](#user-content--directory-structure)  
+- [License](#user-content--license)
 
 ---
 
