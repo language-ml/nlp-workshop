@@ -133,7 +133,7 @@ Topics covered:
 
 ---
 
-## 🛠️ Workshop 3: PyTorch
+## 🛠 Workshop 3: PyTorch
 
 Notebook:
 
