@@ -12,9 +12,9 @@ Each workshop is provided as a Jupyter notebook:
 ## 📋 Table of Contents
 
 - [Overview](#user-content--overview)  
-- [Prerequisites](#user-content--prerequisites)  
+- [Prerequisites](#user-content-️-prerequisites)  
 - [Installation](#user-content--installation)  
-- [Usage](#user-content--usage)  
+- [Usage](#user-content-️-usage)  
 - [Workshop 1 - Web Crawling](#user-content--workshop-1-web-crawling)  
 - [Workshop 2 - NLP Frameworks](#user-content--workshop-2-nlp-frameworks)  
 - [Workshop 3 - PyTorch](#user-content--workshop-3-pytorch)  
