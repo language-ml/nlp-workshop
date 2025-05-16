@@ -1,33 +1,36 @@
 # NLP Workshop
 
-This repository contains two hands-on workshops designed to introduce practical techniques in Natural Language
-Processing (NLP). Each workshop is provided as a Jupyter notebook, covering web crawling and core NLP frameworks (
-including several Persian‑language tools).
+This repository hosts **three** hands-on workshops designed to introduce practical techniques in Natural Language Processing (NLP).  
+Each workshop is provided as a Jupyter notebook:
+
+1. **Web Crawling** – collecting textual data from the Web.  
+2. **NLP Frameworks** – getting to know popular libraries for English and Persian.  
+3. **PyTorch Fundamentals** – the essentials of deep-learning with PyTorch for NLP.
 
 ---
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Workshop 1: Web Crawling](#workshop-1-web-crawling)
-- [Workshop 2: NLP Frameworks](#workshop-2-nlp-frameworks)
-- [Directory Structure](#directory-structure)
-- [Contributing](#contributing)
+- [Overview](#overview)  
+- [Prerequisites](#prerequisites)  
+- [Installation](#installation)  
+- [Usage](#usage)  
+- [Workshop 1 – Web Crawling](#workshop-1-web-crawling)  
+- [Workshop 2 – NLP Frameworks](#workshop-2-nlp-frameworks)  
+- [Workshop 3 – PyTorch Fundamentals](#workshop-3-pytorch-fundamentals)  
+- [Directory Structure](#directory-structure)  
+- [Contributing](#contributing)  
 - [License](#license)
 
 ---
 
 ## 📝 Overview
 
-- **Workshop 1:** Learn how to fetch and parse web pages programmatically using BeautifulSoup and Selenium.
-- **Workshop 2:** Explore popular NLP libraries and frameworks:
-    - **NLTK** (general NLP)
-    - **spaCy** (industrial‑strength NLP)
-    - **Hazm**, **Parsivar**, **Parsi.io** (Persian‑language processing)
-    - **Hugging Face Transformers** (state‑of‑the‑art models)
+| Workshop | Focus | Highlights |
+| -------- | ----- | ---------- |
+| **1** | Web Crawling | HTTP requests, BeautifulSoup, Selenium, pagination, dynamic content |
+| **2** | NLP Frameworks | NLTK, spaCy, Hazm, Parsivar, Parsi.io, 🤗 Transformers |
+| **3** | PyTorch | Tensors, GPU/CPU device management, automatic differentiation, basic neural-net layers, mini image-classification exercise |
 
 Each notebook includes examples, code snippets, and exercises to reinforce learning.
 
@@ -37,7 +40,9 @@ Each notebook includes examples, code snippets, and exercises to reinforce learn
 
 - **Python 3.8 or higher**
 - **pip** (Python package installer)
-- **Web browser drivers** (for Selenium; e.g., ChromeDriver)
+- **Jupyter Notebook / JupyterLab**  
+- (For Workshop 1) a browser driver such as **ChromeDriver**  
+- (For Workshop 3) **PyTorch 2.x** with optional CUDA/MPS support
 
 ---
 
@@ -65,6 +70,11 @@ Each notebook includes examples, code snippets, and exercises to reinforce learn
    python -m spacy download en_core_web_md
    ```
 
+   4. **(optional) install PyTorch**
+   ```bash
+   pip install torch torchvision torchaudio
+   ```
+
 ---
 
 ## ▶️ Usage
@@ -82,6 +92,7 @@ Each notebook includes examples, code snippets, and exercises to reinforce learn
 3. **Open the desired notebook** under the folders:
     - `Workshop 1 – Web Crawling`
     - `Workshop 2 – NLP Frameworks`
+    - `Workshop 3 – PyTorch`
 
 4. **Follow the instructions** and run cells interactively.
 
@@ -89,7 +100,7 @@ Each notebook includes examples, code snippets, and exercises to reinforce learn
 
 ## 💡 Workshop 1: Web Crawling
 
-Notebooks:
+Notebook list:
 
 - `Workshop1 (Crawling-beautifulsoup-selenium).ipynb`
 - `new_Workshop_(Crawling_beautifulsoup_selenium).ipynb`
@@ -105,19 +116,36 @@ Topics covered:
 
 ## 💼 Workshop 2: NLP Frameworks
 
-Notebooks:
+Notebook sequence:
 
-1. **NLTK**: `1) nltk.ipynb`
-2. **spaCy**: `2) spacy.ipynb`
-3. **Hazm** (Persian): `3) hazm.ipynb`
-4. **Parsivar** (Persian): `4) parsivar.ipynb`
-5. **Parsi.io** (Persian): `5) parsi.io.ipynb`
-6. **Hugging Face Transformers**: `6) hugging face.ipynb`
+1. `1) nltk.ipynb`
+2. `2) spacy.ipynb`
+3. `3) hazm.ipynb`
+4. `4) parsivar.ipynb`
+5. `5) parsi.io.ipynb`
+6. `6) hugging face.ipynb`
 
-Each notebook introduces the library’s core APIs, demonstrates text processing pipelines, and includes practice
-exercises.
+Topics covered:
 
-Additional resources are available in the `resources/` folder (e.g., sample text files, helper scripts).
+- Tokenization, POS-tagging & parsing (English & Persian)
+- Pre-built pipelines in **NLTK**, **spaCy**, **Hazm**, **Parsivar**
+- Using **Parsi.io** APIs for Persian NLP
+- Quick tour of 🤗 **Transformers** for text classification and generation
+
+---
+
+## 🛠️ Workshop 3: PyTorch
+
+Notebook:
+
+- `pytorch.ipynb`
+
+Topics covered:
+
+- Tensors vs. NumPy arrays & device placement (CPU / CUDA / MPS)
+- Reproducibility with `torch.manual_seed`
+- Automatic differentiation (**autograd**)
+- Building a simple feed-forward network for image classification
 
 ---
 
@@ -134,26 +162,12 @@ nlp-workshop/
 │   ├── 3) hazm.ipynb
 │   ├── 4) parsivar.ipynb
 │   ├── 5) parsi.io.ipynb
-│   ├── 6) hugging face.ipynb
-│   └── resources/
+│   └── 6) hugging face.ipynb
+├── Workshop 3 – PyTorch/
+│   └── pytorch.ipynb
 ├── requirements.txt
 └── README.md
 ```
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request with:
-
-- Bug fixes
-- Layout or documentation improvements
-- New workshop modules or exercises
-
-Before submitting, ensure:
-
-- Code runs without errors
-- Notebooks are clean (clear outputs)
 
 ---
 
