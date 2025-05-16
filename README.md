@@ -17,7 +17,7 @@ Each workshop is provided as a Jupyter notebook:
 - [Usage](#user-content--usage)  
 - [Workshop 1 – Web Crawling](#user-content--workshop-1-web-crawling)  
 - [Workshop 2 – NLP Frameworks](#user-content--workshop-2-nlp-frameworks)  
-- [Workshop 3 – PyTorch Fundamentals](#user-content--workshop-3-pytorch)  
+- [Workshop 3 – PyTorch](#user-content--workshop-3-pytorch)  
 - [Directory Structure](#user-content--directory-structure)  
 - [License](#user-content--license)
 
