@@ -3,9 +3,9 @@
 This repository hosts **three** hands-on workshops designed to introduce practical techniques in Natural Language Processing (NLP).  
 Each workshop is provided as a Jupyter notebook:
 
-1. **Web Crawling** – collecting textual data from the Web.  
-2. **NLP Frameworks** – getting to know popular libraries for English and Persian.  
-3. **PyTorch** – the essentials of deep-learning with PyTorch for NLP.
+1. **Web Crawling** - collecting textual data from the Web.  
+2. **NLP Frameworks** - getting to know popular libraries for English and Persian.  
+3. **PyTorch** - the essentials of deep-learning with PyTorch for NLP.
 
 ---
 
@@ -15,9 +15,9 @@ Each workshop is provided as a Jupyter notebook:
 - [Prerequisites](#user-content--prerequisites)  
 - [Installation](#user-content--installation)  
 - [Usage](#user-content--usage)  
-- [Workshop 1 – Web Crawling](#user-content--workshop-1-web-crawling)  
-- [Workshop 2 – NLP Frameworks](#user-content--workshop-2-nlp-frameworks)  
-- [Workshop 3 – PyTorch](#user-content--workshop-3-pytorch)  
+- [Workshop 1 - Web Crawling](#user-content--workshop-1-web-crawling)  
+- [Workshop 2 - NLP Frameworks](#user-content--workshop-2-nlp-frameworks)  
+- [Workshop 3 - PyTorch](#user-content--workshop-3-pytorch)  
 - [Directory Structure](#user-content--directory-structure)  
 - [License](#user-content--license)
 
@@ -25,11 +25,11 @@ Each workshop is provided as a Jupyter notebook:
 
 ## 📝 Overview
 
-| Workshop | Focus | Highlights |
-| -------- | ----- | ---------- |
-| **1** | Web Crawling | HTTP requests, BeautifulSoup, Selenium, pagination, dynamic content |
-| **2** | NLP Frameworks | NLTK, spaCy, Hazm, Parsivar, Parsi.io, 🤗 Transformers |
-| **3** | PyTorch | Tensors, GPU/CPU device management, automatic differentiation, basic neural-net layers, mini image-classification exercise |
+| Workshop | Focus          | Highlights                                                                                                                 |
+|----------|----------------|----------------------------------------------------------------------------------------------------------------------------|
+| **1**    | Web Crawling   | HTTP requests, BeautifulSoup, Selenium, pagination, dynamic content                                                        |
+| **2**    | NLP Frameworks | NLTK, spaCy, Hazm, Parsivar, Parsi.io, 🤗 Transformers                                                                     |
+| **3**    | PyTorch        | Tensors, GPU/CPU device management, automatic differentiation, basic neural-net layers, mini image-classification exercise |
 
 Each notebook includes examples, code snippets, and exercises to reinforce learning.
 
@@ -89,9 +89,9 @@ Each notebook includes examples, code snippets, and exercises to reinforce learn
    ```
 
 3. **Open the desired notebook** under the folders:
-    - `Workshop 1 – Web Crawling`
-    - `Workshop 2 – NLP Frameworks`
-    - `Workshop 3 – PyTorch`
+    - `Workshop 1 - Web Crawling`
+    - `Workshop 2 - NLP Frameworks`
+    - `Workshop 3 - PyTorch`
 
 4. **Follow the instructions** and run cells interactively.
 
@@ -152,17 +152,17 @@ Topics covered:
 
 ```
 nlp-workshop/
-├── Workshop 1 – Web Crawling/
+├── Workshop 1 - Web Crawling/
 │   ├── Workshop1 (Crawling-beautifulsoup-selenium).ipynb
 │   └── new_Workshop_(Crawling_beautifulsoup_selenium).ipynb
-├── Workshop 2 – NLP Frameworks/
+├── Workshop 2 - NLP Frameworks/
 │   ├── 1) nltk.ipynb
 │   ├── 2) spacy.ipynb
 │   ├── 3) hazm.ipynb
 │   ├── 4) parsivar.ipynb
 │   ├── 5) parsi.io.ipynb
 │   └── 6) hugging face.ipynb
-├── Workshop 3 – PyTorch/
+├── Workshop 3 - PyTorch/
 │   └── pytorch.ipynb
 ├── requirements.txt
 └── README.md
