@@ -1,11 +1,6 @@
 # NLP Workshop
 
-This repository hosts **three** hands-on workshops designed to introduce practical techniques in Natural Language Processing (NLP).  
-Each workshop is provided as a Jupyter notebook:
-
-1. **Web Crawling** - collecting textual data from the Web.  
-2. **NLP Frameworks** - getting to know popular libraries for English and Persian.  
-3. **PyTorch** - the essentials of deep-learning with PyTorch for NLP.
+This repository hosts **four** hands-on workshops designed to introduce practical techniques in Natural Language Processing (NLP).
 
 ---
 
@@ -17,7 +12,8 @@ Each workshop is provided as a Jupyter notebook:
 - [Usage](#user-content-️-usage)  
 - [Workshop 1 - Web Crawling](#user-content--workshop-1-web-crawling)  
 - [Workshop 2 - NLP Frameworks](#user-content--workshop-2-nlp-frameworks)  
-- [Workshop 3 - PyTorch](#user-content--workshop-3-pytorch)  
+- [Workshop 3 - PyTorch](#user-content--workshop-3-pytorch)
+- [Workshop 4 – Hugging Face](#user-content--workshop-4-hugging-face)
 - [Directory Structure](#user-content--directory-structure)  
 - [License](#user-content--license)
 
@@ -25,11 +21,12 @@ Each workshop is provided as a Jupyter notebook:
 
 ## 📝 Overview
 
-| Workshop | Focus          | Highlights                                                                                                                 |
-|----------|----------------|----------------------------------------------------------------------------------------------------------------------------|
-| **1**    | Web Crawling   | HTTP requests, BeautifulSoup, Selenium, pagination, dynamic content                                                        |
-| **2**    | NLP Frameworks | NLTK, spaCy, Hazm, Parsivar, Parsi.io, 🤗 Transformers                                                                     |
-| **3**    | PyTorch        | Tensors, GPU/CPU device management, automatic differentiation, basic neural-net layers, mini image-classification exercise |
+| # | Workshop       | Focus                          | Highlights                                                           |
+|---|----------------|--------------------------------|----------------------------------------------------------------------|
+| 1 | Web Crawling   | Collecting text from the web   | `requests`, BeautifulSoup, Selenium, pagination, dynamic content     |
+| 2 | NLP Frameworks | Classic & Persian NLP toolkits | NLTK, spaCy, Hazm, Parsivar, Parsi.io, quick Transformers tour       |
+| 3 | PyTorch        | Deep learning essentials       | Tensors, device placement (CPU/CUDA/MPS), autograd, simple NN        |
+| 4 | Hugging Face   | Modern NLP workflows           | Hub, `datasets`, `transformers` pipelines, Trainer/PEFT, push to Hub |
 
 Each notebook includes examples, code snippets, and exercises to reinforce learning.
 
@@ -42,6 +39,7 @@ Each notebook includes examples, code snippets, and exercises to reinforce learn
 - **Jupyter Notebook / JupyterLab**  
 - (For Workshop 1) a browser driver such as **ChromeDriver**  
 - (For Workshop 3) **PyTorch 2.x** with optional CUDA/MPS support
+- (For Workshop 4) A free [Hugging Face](https://huggingface.co/) account
 
 ---
 
@@ -148,6 +146,24 @@ Topics covered:
 
 ---
 
+## 🛠 Workshop 4: Hugging Face
+
+Notebook:
+
+- `hugging face.ipynb`
+
+Topics covered:
+
+- Exploring the Hugging Face Hub, finding a model and a dataset, and also inspecting model cards and dataset splits/tags.
+- Running zero-shot and few-shot inference with `transformers` pipelines (e.g., text classification or NER).
+- Loading a public dataset with `datasets.load_dataset`, then split, shuffle, and map tokenization with `AutoTokenizer`.
+- Fine-tuning a pretrained model using the `Trainer` API (define `TrainingArguments`, `compute_metrics`, and evaluation loop).
+- (Optional) Apply parameter-efficient fine-tuning (LoRA/PEFT) to reduce VRAM and speed up training.
+- Track metrics with `evaluate` (e.g., accuracy/F1) and save the best checkpoint.
+- (Optional) Publish a simple demo (Gradio/Spaces) so others can try your model from the browser.
+
+---
+
 ## 📂 Directory Structure
 
 ```
@@ -164,6 +180,8 @@ nlp-workshop/
 │   └── 6) hugging face.ipynb
 ├── Workshop 3 - PyTorch/
 │   └── pytorch.ipynb
+├── Workshop 4 - Hugging Face/
+│   └── hugging face.ipynb
 ├── requirements.txt
 └── README.md
 ```
